@@ -1,0 +1,35 @@
+{
+  "name": "img-optimise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imgopt": "gulp imageoptimiseimage"
+  },
+  "keywords": [],
+  "author": "To_omek",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-newer": "^1.4.0",
+    "gulp-size": "^3.0.0",
+    "gulp-tinify": "^1.0.2",
+    "gulp-webp": "^4.0.1",
+    "imagemin-pngquant": "^9.0.0"
+  },
+  "paths": {
+    "src": {
+      "base": "./src/",
+      "img": "./src/img/"
+    },
+    "dist": {
+      "base": "./dist/",
+      "img": "./dist/img/"
+    }
+  },
+  "keys": {
+    "tinyPng": "JfP517dzrSd0sXNRlqFM6L5Z5tlX1Blr"
+  }
+}
